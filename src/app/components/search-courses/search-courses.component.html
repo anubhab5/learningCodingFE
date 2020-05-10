@@ -1,0 +1,14 @@
+<div class='heading'>
+    <h4>Register To New Courses</h4>
+    <span>
+        <a [routerLink]="'/addnewcourse'" class="btn-floating btn-large waves-effect waves-light purple"><i class="material-icons">add</i></a>
+    </span>
+</div>
+
+<div class='row clear-float'>
+    <ng-container *ngFor="let course of courseToRegister">
+        <div class='col s6 m3'>
+            <app-cardview [cardDetail]="course"></app-cardview>
+        </div>
+    </ng-container>
+</div>

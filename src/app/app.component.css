@@ -1,0 +1,26 @@
+main {}
+
+footer {
+    height: 10rem;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+
+h6 {
+    font-weight: 700;
+    ;
+}
+
+.brand-logo {
+    margin-left: 1rem;
+    ;
+}
+
+.avatar-img img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 1rem;
+}

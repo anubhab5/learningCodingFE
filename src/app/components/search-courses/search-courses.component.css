@@ -1,0 +1,13 @@
+.heading h4 {
+    float: left;
+    margin: 1rem;
+}
+
+.heading span {
+    float: right;
+    margin: 1rem;
+}
+
+.clear-float {
+    clear: both;
+}
